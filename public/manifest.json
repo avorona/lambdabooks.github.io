@@ -1,0 +1,15 @@
+{
+  "short_name": "LambdaBooks",
+  "name": "ƛ LambdaBooks — Programming books translated to Ukrainian, qualitatively.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#3F344C",
+  "background_color": "#EAEFCF"
+}
