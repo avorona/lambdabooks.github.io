@@ -10,19 +10,19 @@ import './Social.css';
 
 const Social = ({ }) => (
   <div className="Social">
-    <a href="https://facebook.com/lambdabooks"  target="_blank">
+    <a href="https://facebook.com/lambdabooks">
       <img src={facebook} alt="facebook icon" width="32px"/>
     </a>
-    <a href="https://twitter.com/LambdaBooks" target="_blank">
+    <a href="https://twitter.com/LambdaBooks">
       <img src={twitter} alt="twitter icon" width="32px"/>
     </a>
-    <a href="https://medium.com/lambdabooks" target="_blank">
+    <a href="https://medium.com/lambdabooks">
       <img src={medium} alt="medium icon" width="32px"/>
     </a>
-    <a href="#" target="_blank">
+    <a href="http://slack.lambdabooks.com/">
       <img src={slack} alt="slack icon" width="32px"/>
     </a>
-    <a href="https://github.com/LambdaBooks" target="_blank">
+    <a href="https://github.com/LambdaBooks">
       <img src={github} alt="github icon" width="32px"/>
     </a>
   </div>
