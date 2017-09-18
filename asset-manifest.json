@@ -1,4 +1,12 @@
 {
-  "main.js": "static/js/main.f6c3dad7.js",
-  "main.js.map": "static/js/main.f6c3dad7.js.map"
+  "main.css": "static/css/main.9e1cb95e.css",
+  "main.css.map": "static/css/main.9e1cb95e.css.map",
+  "main.js": "static/js/main.56b46790.js",
+  "main.js.map": "static/js/main.56b46790.js.map",
+  "static/media/facebook.svg": "static/media/facebook.3acc1ae2.svg",
+  "static/media/github.svg": "static/media/github.38b595c0.svg",
+  "static/media/lambdabooks-logo.svg": "static/media/lambdabooks-logo.ab4d42a5.svg",
+  "static/media/medium.svg": "static/media/medium.1dc19a00.svg",
+  "static/media/slack.svg": "static/media/slack.ca7ddf66.svg",
+  "static/media/twitter.svg": "static/media/twitter.db7d6e28.svg"
 }
