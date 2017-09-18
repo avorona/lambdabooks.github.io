@@ -1,0 +1,10 @@
+.Social {
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.Social a {
+  margin: 0 1rem;
+}
