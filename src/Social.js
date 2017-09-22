@@ -8,7 +8,7 @@ import github from './assets/github.svg';
 
 import './Social.css';
 
-const Social = ({ }) => (
+const Social = () => (
   <div className="Social">
     <a href="https://facebook.com/lambdabooks">
       <img src={facebook} alt="facebook icon" width="32px"/>

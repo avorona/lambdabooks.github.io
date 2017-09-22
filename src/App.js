@@ -31,9 +31,22 @@ class App extends Component {
           <Image src={logo} width="40%"/>
           <Heading textColor="secondary">LambdaBooks</Heading>
           <Social />
-          {/* <Text textSize="1.5rem" textColor="secondary" style={{ opacity: 0.5 }}>
-            Натисніть <em>Space</em>, щоб рухатись далі…
-          </Text> */}
+            <Text
+              textSize="1.5rem"
+              textColor="secondary"
+              margin="3rem auto 0"
+              style={{ opacity: 0.5 }}>
+              Натисніть <em>Space</em>, щоб рухатись далі…
+            </Text>
+        </Slide>
+
+        <Slide bgColor="secondary">
+          <BlockQuote>
+            <Quote textSize="4rem" lineHeight="1.2">
+              Ми перекладаємо книжки на українську.<br />
+              Якісно.
+            </Quote>
+          </BlockQuote>
         </Slide>
       </Deck>
     );
