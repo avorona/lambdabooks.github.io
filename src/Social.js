@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Image } from 'spectacle';
 
 import facebook from './assets/facebook.svg';
 import twitter from './assets/twitter.svg';
@@ -10,21 +11,21 @@ import './Social.css';
 
 const Social = () => (
   <div className="Social">
-    <a href="https://facebook.com/lambdabooks">
-      <img src={facebook} alt="facebook icon" width="32px"/>
-    </a>
-    <a href="https://twitter.com/LambdaBooks">
-      <img src={twitter} alt="twitter icon" width="32px"/>
-    </a>
-    <a href="https://medium.com/lambdabooks">
-      <img src={medium} alt="medium icon" width="32px"/>
-    </a>
-    <a href="http://slack.lambdabooks.com/">
-      <img src={slack} alt="slack icon" width="32px"/>
-    </a>
-    <a href="https://github.com/LambdaBooks">
-      <img src={github} alt="github icon" width="32px"/>
-    </a>
+    <Link href="https://facebook.com/lambdabooks" target="_blank">
+      <Image src={facebook} alt="facebook icon" width="32px"/>
+    </Link>
+    <Link href="https://twitter.com/LambdaBooks" target="_blank">
+      <Image src={twitter} alt="twitter icon" width="32px"/>
+    </Link>
+    <Link href="https://medium.com/lambdabooks" target="_blank">
+      <Image src={medium} alt="medium icon" width="32px"/>
+    </Link>
+    <Link href="http://slack.lambdabooks.com/" target="_blank">
+      <Image src={slack} alt="slack icon" width="32px"/>
+    </Link>
+    <Link href="https://github.com/LambdaBooks" target="_blank">
+      <Image src={github} alt="github icon" width="32px"/>
+    </Link>
   </div>
 );
 
