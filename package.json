@@ -6,7 +6,7 @@
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13",
+    "react-scripts": "4.0.0",
     "react-tweet-embed": "^1.0.8",
     "spectacle": "^2.2.2"
   },
