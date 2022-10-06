@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^1.0.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13",
+    "gh-pages": "^2.0.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "5.0.0",
     "react-tweet-embed": "^1.0.8",
-    "spectacle": "^2.2.2"
+    "spectacle": "^9.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,6 +17,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b master -m \"Updated at $(date +'%a, %d %b %Y, %T, %Z')\" --add"
-  }
+    "deploy": "gh-pages -d build -b master -m \"Updated at $(date +'%a, %d %b %Y, %T, %Z')\" --add",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
